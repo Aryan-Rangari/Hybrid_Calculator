@@ -3,20 +3,20 @@ import java.lang.Math;
 public class calculater {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Choose one option");
+        System.out.println("Choose one option :");
         System.out.println("1) Simple Calculator");
         System.out.println("2) Scientific  Calculator");
         int d = sc.nextInt();
         if (d==1){
-        System.out.println("Chose any one      ");
+        System.out.println("Chose any one :     ");
         System.out.println("1)Additioan");
         System.out.println("2)Subtraction");
         System.out.println("3)Multiply");
         System.out.println("4)Division");
         int c = sc.nextInt();
-        System.out.println("Enter first number");
+        System.out.println("Enter first number :");
         float a = sc.nextInt();
-        System.out.println("Enter second number");
+        System.out.println("Enter second number :");
         float b = sc.nextInt();
         float de = a / b ;
        
@@ -41,26 +41,28 @@ public class calculater {
         System.out.println("1) Trignometric Calculator \n2) Exponential Calculator");
         int g = sc.nextInt();
         if(g==1){
-            System.out.println("Which value you want to find\n1)Sine(x)\n2)Cosine(x)\n3)Tangent(x)\n4)Secant(x)\n5)Cosecant(x)\n6)Cotangent(x)");
+            System.out.println("Which value you want to find  :  \n1)Sine(x)\n2)Cosine(x)\n3)Tangent(x)\n4)Secant(x)\n5)Cosecant(x)\n6)Cotangent(x)");
             int f = sc.nextInt();
+            System.out.println("Enter the value of radians :");
+            int fi = sc.nextInt();
             switch(f){
                 case 1:
-                System.out.println("Value of sin(" + f+ ") is "+Math.sin(f));
+                System.out.println("Value of sin(" + fi+ ") is "+Math.sin(fi));
                 break;
                 case 2:
-                System.out.println("Value of cos(" + f+ ") is "+Math.cos(f));
+                System.out.println("Value of cos(" + fi+ ") is "+Math.cos(fi));
                  break;
                 case 3:
-                System.out.println("Value of tan(" + f+ ") is "+Math.tan(f));
+                System.out.println("Value of tan(" + fi+ ") is "+Math.tan(fi));
                  break;
                 case 4:
-                System.out.println("Value of sec(" + f+ ") is "+1/(Math.sin(f)));
+                System.out.println("Value of sec(" + fi+ ") is "+1/(Math.sin(fi)));
                  break;
                 case 5:
-                System.out.println("Value of cosec(" + f+ ") is "+1/(Math.cos(f)));
+                System.out.println("Value of cosec(" + fi+ ") is "+1/(Math.cos(fi)));
                  break;
                 case 6:
-                System.out.println("Value of cot(" + f+ ") is "+1/(Math.tan(f)));
+                System.out.println("Value of cot(" + fi+ ") is "+1/(Math.tan(fi)));
                  break;
                 default :
                 System.out.println("Sorry.....!");
@@ -68,13 +70,13 @@ public class calculater {
            
             }
         else if(g==2){
-            System.out.println(" Choose any one \n 1) To find power \n 2) To find sqaure root");
+            System.out.println(" Choose any one :\n 1) To find power \n 2) To find sqaure root");
             int h = sc.nextInt();
             switch(h){
                 case 1:
-                System.out.println("Enter the number ");
+                System.out.println("Enter the number :");
                 int t = sc.nextInt();
-                System.out.println("Enter the Power ");
+                System.out.println("Enter the Power : ");
                 int k = sc.nextInt();
                 System.out.println("The power of "+t+"^"+k +" is "+Math.pow(t,k));
                 break;
