@@ -70,7 +70,7 @@ public class calculater {
            
             }
         else if(g==2){
-            System.out.println(" Choose any one :\n 1) To find power \n 2) To find sqaure root");
+            System.out.println(" Choose any one :\n 1) To find power \n 2) To find square root");
             int h = sc.nextInt();
             switch(h){
                 case 1:
@@ -83,7 +83,7 @@ public class calculater {
                 case 2:
                 System.out.println("Enter the number ");
                 int v = sc.nextInt();
-                System.out.println("The sqaure root "+ v +" is "+Math.sqrt(v));
+                System.out.println("The square root "+ v +" is "+Math.sqrt(v));
                 break;
                 default :
                 System.out.println("Sorry.....!");
